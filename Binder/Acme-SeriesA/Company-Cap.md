@@ -45,9 +45,3 @@ SeriesA.ParValue.$=$0.001
 SeriesA.PricePerShare.$=~$1.00
 
 SeriesPriorPreferredStock.ParValue.$=0.001
-
-Cap.EmployeeOptionPool.Allocated.sec={TermSheet.Cap.EmployeeOptionPool.Allocated.No.sec}
-
-Cap.SeriesA.Dividend.Pay.OnLiquidation.sec={TermSheet.Cap.SeriesA.Dividend.Pay.OnLiquidation.Yes.sec}
-
-Cap.SeriesA.LiquidationPreference.Plus.sec={TermSheet.Cap.SeriesA.LiquidationPreference.Plus.DeclaredDividends.sec}

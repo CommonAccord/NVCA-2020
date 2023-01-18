@@ -112,6 +112,10 @@ Director.VotedBySeriesA.Directors.number(#)=one (1) director
 
 Board.Size.Number=five
 
+PreferredDirectorApproval.AtLeast.NumberOf=one
+
+PreferredDirectorApproval.,cl=, including the approval of {PreferredDirectorApproval.AtLeast.NumberOf} Preferred Director
+
 SeriesAApprovalRequired.IfAtLeastOutstanding.#/%=50%
 
 SeriesAApprovalRequired.ForTotalDebtMoreThan.$=$1,000,000
@@ -603,8 +607,7 @@ Doc.GUID=AcmeSeriesA:{SecName}
 
 SecName=</>
 
-r00t=
-{TermSheet.r00t} {COI.r00t} {Indemn.r00t} {IRA.r00t} {Voting.r00t} {CDA.r00t} {MRL.r00t} {SPA.r00t} {ROFR.r00t} {LicenseTermSheet.r00t}
+All.r00t={TermSheet.r00t} {COI.r00t} {Indemn.r00t} {IRA.r00t} {Voting.r00t} {CDA.r00t} {MRL.r00t} {SPA.r00t} {ROFR.r00t} {LicenseTermSheet.r00t}
 
 ScheduleOfInvestors.sec=<table border=1>{HoldingRow.sec}</table>
 
@@ -624,4 +627,6 @@ KeyHolderRow.2.sec={Investor.3.Holding.tr}
 
 KeyHolderRow.=[G/Z/para/s2]
 
-Holding.tr=<tr><td valign='top'>Investor: {Investor.#}</td><td valign='top'> {Party.US.N/E/A}</td><td valign='top'>Shares: <br><b>{Shares.#}</b></td><td valign='top'>Percent:<br> <b>{Shares.%}</b></td><td valign='top'>Investment: <br><b>{Shares.$}</b></td></tr>
+Holding.tr=<tr!!><td valign='top'>Investor: {Investor.#}</td><td valign='top'> {Party.US.N/E/A}</td><td valign='top'>Shares: <br><b>{Shares.#}</b></td><td valign='top'>Percent:<br> <b>{Shares.%}</b></td><td valign='top'>Investment: <br><b>{Shares.$}</b></td></tr>
+
+tr!!=tr
