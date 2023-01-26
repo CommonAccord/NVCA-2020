@@ -61,4 +61,4 @@ PatentEnforcement.Initiator.Licensee/Licensor={_Licensee}
 GoverningLaw.sec={Law.State}
 
 
-=[G/NVCA/2020/LifeScience/LS-License-TermSheet/Form/0.md]
+=[G/NVCA/2020/LifeScience-License-TermSheet/Form/0.md]
