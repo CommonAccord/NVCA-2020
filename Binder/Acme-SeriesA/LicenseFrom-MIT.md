@@ -22,6 +22,8 @@ MAR.3.$=$160,000
 
 MAR.4.$=$320,000
 
+FieldOfUse.sec=Any and all uses, except no uses in humans.
+
 LicenseIssueFee.sec=Licensee shall pay an up-front fee of {IssueFee.$} within 10 days of the Effective Date.
 
 CodersNote=These repeat and overwrite elements from the form. See the form to see the originals.
