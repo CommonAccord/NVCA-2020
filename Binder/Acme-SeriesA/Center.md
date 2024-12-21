@@ -14,7 +14,7 @@ Note=This is a variant of the Voting Agreement that has "Sale Rights" and a Boar
 
 Voting.=[G/NVCA/2020/Voting/Form/Variant-SaleRights-BoardTwoPref-KH-CEO-Mut.md]
 
-CDA.=[G/NVCA/2020/LifeScience-CDA/Form/0.md]
+CDA.=[G/NVCA/2018/CDA/Form/0.md]
 
 MRL.=[G/NVCA/2020/MRL/Form/0.md]
 
@@ -477,7 +477,7 @@ COI.SecName=COI.
 
 COI.Link=<a href='{SourceRoot!!}COI.r00t'>Certificate of Incorporation Link</a>
 
-SourceRoot!!=i.php?v=d&f=G/NVCA/2020/Binder/Acme-SeriesA/Acme-2022.md&{kParty!!!}
+SourceRoot!!=i.php?v=d&f=G/NVCA/2020/Binder/Acme-SeriesA/Center.md&{kParty!!!}
 
 kParty!!!=k=
 
